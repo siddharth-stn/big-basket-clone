@@ -1,16 +1,69 @@
-# React + Vite
+# BigBasket Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive front-end clone of the popular Indian grocery delivery platform **BigBasket**, built as a learning project to sharpen my skills in modern web development.
 
-Currently, two official plugins are available:
+## About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am a student at **WsCube Tech**, currently learning React.js and other web development technologies. This project is part of my journey to become a proficient front-end developer. The goal was to recreate the BigBasket website UI as closely as possible, focusing on responsive design, component-based architecture, and clean code practices.
 
-## React Compiler
+Building this project has helped me understand how real-world e-commerce websites are structured and how to translate complex UI designs into working code.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React.js** - Component-based UI development
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework for responsive styling
+- **Lucide React** & **React Icons** - Icon libraries
+- **JavaScript (ES6+)** - Modern JavaScript features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Fully responsive header with desktop and mobile layouts
+- Mobile drawer navigation with open/close toggle
+- Search bar with focus styling
+- Shop by Category navigation
+- Quick delivery location badge
+- Login/Sign up button
+- Shopping cart icon
+
+## What I Learned
+
+- Building reusable React components
+- Managing component state with `useState`
+- Responsive design using Tailwind CSS breakpoints (`md:`, `lg:`, `xl:`)
+- CSS Grid and Flexbox layouts
+- Conditional rendering and dynamic class names
+- Structuring a project with clean folder organization
+
+## Acknowledgements
+
+A huge thank you to the amazing teachers at **WsCube Tech**. Their dedication, patience, and expertise have made learning web development an enjoyable and rewarding experience. The way they break down complex concepts into simple, easy-to-understand lessons is truly commendable. Their real-world project-based teaching approach has given me the confidence to build projects like this one. I am grateful for their continuous support and guidance throughout my learning journey.
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone <repo-url>
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## Status
+
+This project is currently a work in progress. More pages and features will be added as I continue learning.
+
+---
+
+## About Me
+
+Hi, I'm **Siddharth Pande** - an aspiring web developer currently learning React.js and modern web technologies at WsCube Tech. I'm passionate about building clean, responsive, and user-friendly web applications.
+
+- GitHub: [siddharth-stn](https://github.com/siddharth-stn)
+
+---
+
+Built with dedication and passion while learning at **WsCube Tech**.
