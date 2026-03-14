@@ -97,12 +97,12 @@ export default function Header() {
           </div>
         </div>
 
-        <div className={`drawer h-screen bg-white text-[14px] text-white fixed top-0 left-0 w-full z-50 py-5 px-4 ${drawerOpen ? "flex" : "hidden"} justify-between`}>
+        <div className={`drawer h-screen bg-white text-[14px] fixed top-0 left-0 w-full z-50 py-5 px-4 ${drawerOpen ? "flex" : "hidden"} justify-between`}>
           <div className="btn-group w-2/3 flex flex-col gap-4 ">
-            <div className='login-button bg-black rounded cursor-pointer h-15 flex items-center justify-center'>
+            <div className='login-button text-white bg-black rounded cursor-pointer h-15 flex items-center justify-center'>
               <span>Login / Sign up</span>
             </div>
-            <div className='category-btn bg-[#5D9400] rounded cursor-pointer flex gap-2 items-center justify-center h-15'>
+            <div className='category-btn text-white bg-[#5D9400] rounded cursor-pointer flex gap-2 items-center justify-center h-15'>
               <span>Shop by Category</span>
               <FaCaretDown />
             </div>
