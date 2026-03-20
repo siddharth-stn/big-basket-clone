@@ -1,7 +1,9 @@
-import React from 'react'
+import RowOneHomePage from "../components/RowOneHomePage";
 
 export default function Homepage() {
   return (
-    <div>Homepage</div>
-  )
+    <div className="mt-20">
+      <RowOneHomePage />
+    </div>
+  );
 }
