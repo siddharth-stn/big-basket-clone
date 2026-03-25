@@ -6,7 +6,7 @@ function Button({ text, bgColor, image, textColor }) {
     <Link
       to="/"
       // Keep Tailwind for the static text styling
-      className="cursor-pointer leading-snug font-extrabold text-[14px] bg-contain h-full w-40 rounded-xl py-2 px-6 uppercase text-center grid place-content-center"
+      className="cursor-pointer leading-snug font-extrabold text-[12px] md:text-[14px] md:bg-contain bg-cover bg-center bg-no-repeat md:h-full w-30 md:w-40 rounded-xl py-2 md:px-6 uppercase text-center grid place-content-center"
       // Use inline styles for the dynamic properties
       style={{
         backgroundColor: bgColor || "transparent",
@@ -57,7 +57,7 @@ export default function RowOneHomePage() {
   return (
     <>
       <div className="row-one grid md:grid-cols-[1fr_minmax(0,1135px)_1fr]">
-        <div className="md:col-start-2 flex justify-between">
+        <div className="md:col-start-2 grid grid-cols-2 mx-auto md:mx-0 md:flex md:justify-between gap-2 md:gap-0">
           {btnContent.map((v, i) => {
             return (
               <Button
