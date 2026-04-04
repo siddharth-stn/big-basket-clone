@@ -2,7 +2,7 @@
 
 A pixel-accurate, responsive front-end clone of [BigBasket](https://www.bigbasket.com) — India's leading online grocery delivery platform. Built from scratch using React and Tailwind CSS as part of my Module 12 project at [WsCube Tech](https://www.wscubetech.com).
 
-> **Project Status:** Work in progress. Core layout and homepage components are functional. More sections, pages, and features are actively being built.
+> **Project Status:** Complete. Homepage with header, product carousel, category buttons, and footer — all functional and responsive.
 
 ## Preview
 
@@ -34,13 +34,13 @@ src/
 │   ├── common/
 │   │   ├── CommonLayout.jsx        # Shared layout (Header + Outlet + Footer)
 │   │   ├── Header.jsx              # Responsive header — desktop & mobile
-│   │   ├── Footer.jsx              # Footer (in progress)
+│   │   ├── Footer.jsx              # Footer with links, logo, app store & socials
 │   │   └── ProductDisplay.jsx      # Product card carousel (Embla Carousel)
 │   └── RowOneHomePage.jsx          # Category button row on homepage
 └── assets/images/                  # Logos and static images
 ```
 
-## Features Built So Far
+## Features
 
 - **Responsive header** with two distinct layouts — a full navigation bar for desktop and a compact version with a hamburger drawer for mobile
 - **Mobile drawer navigation** with smooth open/close toggling
@@ -49,6 +49,7 @@ src/
 - **Centered max-width layout** using CSS Grid (`1fr / 1135px / 1fr` pattern) to match BigBasket's content width
 - **Shop by Category**, quick delivery badge, login button, and cart icon
 - **Product card carousel** using Embla Carousel with prev/next navigation, 4 slides per view, and scroll-by-group
+- **Footer** with two link columns (Bigbasket & Help), bb logo, Google Play / App Store buttons, social media icons, and a dashed bottom divider
 
 ## What I Learned Building This
 
@@ -77,14 +78,12 @@ npm run dev
 
 The app will be running at `http://localhost:5173`.
 
-## Roadmap
+## Completed
 
+- [x] Responsive header (desktop + mobile drawer)
+- [x] Category button row on homepage
 - [x] Product carousel section (My Smart Basket)
-- [ ] Complete remaining homepage sections (banners, offers grid)
-- [ ] Build out the footer
-- [ ] Add product listing and detail pages
-- [ ] Implement category navigation
-- [ ] Add more routes and pages
+- [x] Footer with links, logo, app store buttons, and social icons
 
 ## About Me
 
