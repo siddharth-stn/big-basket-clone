@@ -17,6 +17,7 @@ A pixel-accurate, responsive front-end clone of [BigBasket](https://www.bigbaske
 | UI Library | React 19                  |
 | Routing    | React Router 7            |
 | Styling    | Tailwind CSS 4            |
+| Carousel   | Embla Carousel              |
 | Icons      | Lucide React, React Icons |
 | Build Tool | Vite 8                    |
 | Language   | JavaScript (ES6+)         |
@@ -33,7 +34,8 @@ src/
 │   ├── common/
 │   │   ├── CommonLayout.jsx        # Shared layout (Header + Outlet + Footer)
 │   │   ├── Header.jsx              # Responsive header — desktop & mobile
-│   │   └── Footer.jsx              # Footer (in progress)
+│   │   ├── Footer.jsx              # Footer (in progress)
+│   │   └── ProductDisplay.jsx      # Product card carousel (Embla Carousel)
 │   └── RowOneHomePage.jsx          # Category button row on homepage
 └── assets/images/                  # Logos and static images
 ```
@@ -46,6 +48,7 @@ src/
 - **Category navigation row** with dynamic button rendering using reusable components
 - **Centered max-width layout** using CSS Grid (`1fr / 1135px / 1fr` pattern) to match BigBasket's content width
 - **Shop by Category**, quick delivery badge, login button, and cart icon
+- **Product card carousel** using Embla Carousel with prev/next navigation, 4 slides per view, and scroll-by-group
 
 ## What I Learned Building This
 
@@ -76,7 +79,8 @@ The app will be running at `http://localhost:5173`.
 
 ## Roadmap
 
-- [ ] Complete homepage sections (banners, product carousels, offers grid)
+- [x] Product carousel section (My Smart Basket)
+- [ ] Complete remaining homepage sections (banners, offers grid)
 - [ ] Build out the footer
 - [ ] Add product listing and detail pages
 - [ ] Implement category navigation
